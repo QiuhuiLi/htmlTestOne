@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0;}
+
+.top{
+    background: #eeeeee;
+    padding: 5px;
+
+}
+
+
+.login
+{
+    font-size: 15px;
+
+}
+.login:link
+{
+text-decoration: none;
+
+    color: blue;
+
+}
+
+
+.login:visited
+{
+    text-decoration: none;
+    color: green;
+
+}
+.login:hover
+{
+    text-decoration: none;
+    color: red;
+
+}
+
+.logo1
+{
+    width: 50px;
+    height:50px;
+    display: block;
+    margin:20px 50px;
+
+    background: url("../img/logo.png") 0px 0px /50px 50px  no-repeat;
+}
+
+
+.search
+{
+   border: 1px solid red;
+    width:400px;
+
+
+}
+
+.search1
+{
+    width:30px;
+}
+.search2
+{
+    border: none;
+
+}
+
+.search3
+{
+    color: white;
+    background: red;
+    border: none;
+   width:44px;
+height: 20px;
+
+}
+
+.search4
+{
+    margin: 5px;
+    color: gray;
+    font-size: 12px;
+
+}
+.search4 li
+{
+    display: inline-block;
+}
