@@ -2,7 +2,7 @@
 
 .top{
     background: #eeeeee;
-    padding: 5px;
+    padding: 5px 5px 5px 30px;
 
 }
 
@@ -40,14 +40,24 @@ text-decoration: none;
     height:50px;
     display: block;
     margin:20px 50px;
-
     background: url("../img/logo.png") 0px 0px /50px 50px  no-repeat;
-}
 
+}
 
 .search
 {
-   border: 1px solid red;
+
+    width:400px;
+  position: absolute;
+    left:250px;
+    top:60px;
+
+
+}
+
+.search0
+{
+   border: 2px solid red;
     width:400px;
 
 
@@ -84,4 +94,34 @@ height: 20px;
 {
     display: inline-block;
 }
-asdasd
+
+
+.nav-box{width:250px; margin: 30px;}
+.nav-top{
+    height:45px;
+    font-size:16px;
+    line-height:45px;
+    padding:0 10px;
+    background:#B1191A;
+    color:#fff;
+}
+.nav-box ul{
+    background-color:#B1191A;
+
+}
+.nav-box li
+{
+   list-style: none;
+
+    height: 30px;
+    line-height: 30px;
+    font-size:14px;
+    padding-left: 8px;;
+    color: white;
+    background:url("../img/bg.png") no-repeat 200px center;
+
+
+
+}
+.nav-box a{text-decoration:none;color: white}
+
